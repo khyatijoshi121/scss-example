@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header1 {
+  background-color: #bb6a78;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .header1 h1 {
+    color: #7290ac;
+    font-family: monospace;
+    font-size: 50px; }
+    .header1 h1:hover {
+      color: #3d76b8; }
+    .header1 h1::selection {
+      background-color: #a08bbb; }
+  .header1 p {
+    color: #d4b394;
+    font-size: 18px;
+    font-family: cursive; }
+    .header1 p:hover {
+      color: #3d76b8; }
+    .header1 p::selection {
+      background-color: #a08bbb; }
+  .header1 .links {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px; }
+    .header1 .links a {
+      color: #d4c8c8;
+      text-decoration: none; }
+      .header1 .links a:hover {
+        color: #f01111; }
+      .header1 .links a::selection {
+        background-color: #f89412; }
+
+.header2 {
+  background-color: #378888;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .header2 h1 {
+    font-size: 50px;
+    font-family: monospace;
+    color: #88f17c; }
+    .header2 h1:hover {
+      color: #3d76b8; }
+    .header2 h1::selection {
+      background-color: #a08bbb; }
+  .header2 p {
+    color: #adddc6;
+    font-size: 18px;
+    font-family: cursive; }
+    .header2 p:hover {
+      color: #3d76b8; }
+    .header2 p::selection {
+      background-color: #a08bbb; }
+  .header2 .button {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: space-evenly; }
+  .header2 .btn1 {
+    background: #51b956; }
+    .header2 .btn1:hover {
+      background-color: brown; }
+  .header2 .btn2 {
+    background: #a35454; }
+    .header2 .btn2:hover {
+      background-color: aqua;
+      color: darkkhaki; }
+
+.header2 .btn1, .header2 .btn2 {
+  width: 100px;
+  height: 5vh;
+  color: wheat;
+  border-radius: 5px;
+  border: none; }
+
+.abc .head {
+  color: #5c5363; }
+
+.abc p {
+  color: #5c5363; }
+
+@media (max-width: 567px) {
+  .header1 {
+    background-color: #c7698d;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%; }
+    .header1 h1 {
+      font-size: 35px; }
+    .header1 p {
+      font-size: 16px; } }

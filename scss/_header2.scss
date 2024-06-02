@@ -1,0 +1,50 @@
+.header2{
+    @include head(rgb(55, 136, 136));
+    h1{
+        font-size:map-get($map: $fontsize, $key:desktop );
+        font-family:$hfontfamily;
+         color:#88f17c;
+
+         &:hover{
+            color: $hovercolor;
+         }
+         &::selection{
+            background-color: $selectcolor;
+         }
+    }
+    p{
+        color: 	 #adddc6; 
+        font-size: 18px;
+        font-family:$pfontfamily;
+
+        &:hover{
+            color: $hovercolor;
+        }
+        &::selection{
+            background-color: $selectcolor;
+        }
+    }
+    .button{
+        display: flex;
+        width: 100%;
+        padding-top: 30px;
+        justify-content: space-evenly;
+}
+     .btn1{
+        background: rgb(81, 185, 86);
+       @extend %buttonextend;
+
+       &:hover{
+        background-color: brown;
+       }
+    }
+    .btn2{
+        background: rgb(163, 84, 84);
+        @extend %buttonextend;
+
+        &:hover{
+            background-color: aqua;
+            color: darkkhaki;
+        }
+    }
+}
